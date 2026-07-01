@@ -7,7 +7,7 @@ cask "miviewer" do
   desc "Folder-aware macOS image viewer with keyboard navigation and zoom"
   homepage "https://github.com/metin-aksu/miViewer"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "miViewer.app"
 
