@@ -19,13 +19,11 @@ cask "mienter" do
 
   caveats <<~EOS
     miEnter is signed with a Developer ID but is not notarized, so macOS
-    quarantines it on install. If it refuses to open, reinstall with:
-
-      brew install --cask --no-quarantine mienter
-
-    or clear the flag manually:
+    quarantines it on install. If it refuses to open, clear the flag once:
 
       xattr -dr com.apple.quarantine "#{appdir}/miEnter.app"
+
+    (Or right-click miEnter.app in Finder → Open → Open the first time.)
 
     miEnter also needs Accessibility permission to intercept the Enter key:
       System Settings → Privacy & Security → Accessibility → enable miEnter
