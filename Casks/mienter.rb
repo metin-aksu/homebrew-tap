@@ -1,6 +1,6 @@
 cask "mienter" do
   version "1.0"
-  sha256 "5294ecdb9d100d0676451308cd9e3500b65778840b71069a58ab8241847a8b89"
+  sha256 "345d5cd101bc678c5644fedf9d57b1d777d3ea3e857a78b3411c67594f89387a"
 
   url "https://github.com/metin-aksu/miEnter/releases/download/v#{version}/miEnter.dmg",
       verified: "github.com/metin-aksu/miEnter/"
