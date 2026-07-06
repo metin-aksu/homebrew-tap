@@ -1,6 +1,6 @@
 cask "metools" do
-  version "1.0"
-  sha256 "33e1770ff2a6ef496e38902f5fb20a297b709b727ff8f84c41f0ee7f4762edd3"
+  version "1.1"
+  sha256 "368ec44901e8101eaadca8eafb179af4e8a339d80ec4c5285482a0971a33c338"
 
   url "https://github.com/metin-aksu/meTools/releases/download/v#{version}/meTools-#{version}.dmg"
   name "meTools"
